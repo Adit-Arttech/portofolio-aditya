@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Aditya Herlambang | Portofolio</title>
+<meta name="description" content="Portofolio Aditya Herlambang, lulusan RPL SMK Bina Informatika Kota Bogor yang melamar posisi Junior Programmer dan Staff IT.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Gambar pojok: ganti nama file di src dengan foto Anda (taruh di folder yang sama) -->
+<img class="pojok pojok-atas" src="mic.jpeg" alt="" aria-hidden="true" onerror="this.remove()">
+<img class="pojok pojok-bawah" src="warna.jpeg" alt="" aria-hidden="true" onerror="this.remove()">
+<div id="progress" aria-hidden="true"></div>
+<header>
+  <div class="wrap">
+    <a class="brand" href="#atas">Aditya Herlambang</a>
+    <nav aria-label="Menu utama">
+      <a href="#tentang">Tentang</a>
+      <a href="#proyek">Proyek</a>
+      <a href="#pengalaman">Pengalaman</a>
+      <a class="btn btn-fill" href="#kontak">Kontak</a>
+    </nav>
+  </div>
+</header>
+
+<main id="atas">
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <h1><span>Aditya</span><span>Herlambang</span></h1>
+        <p class="lead">Lulusan Rekayasa Perangkat Lunak yang sedang melamar posisi Junior Programmer/Staff IT.</p>
+        <div class="actions">
+          <a class="btn btn-fill" href="#kontak">Hubungi saya</a>
+          <a class="btn btn-line" href="#proyek">Lihat proyek</a>
+        </div>
+      </div>
+      <aside class="ticket" aria-label="Ringkasan lamaran">
+        <div class="ticket-top">
+          <div class="ticket-head"><b>Ringkasan lamaran</b><span class="chip">Terbuka</span></div>
+          <dl>
+            <dt>Posisi</dt><dd>Junior Programmer/Staff IT</dd>
+            <dt>Domisili</dt><dd>Kota Bogor</dd>
+            <dt>Lulus</dt><dd>Juni 2026</dd>
+            <dt>Sekolah</dt><dd>SMK Bina Informatika, jurusan RPL</dd>
+          </dl>
+        </div>
+        <div class="cut" aria-hidden="true"></div>
+        <div class="ticket-bottom">
+          <span>Balasan tercepat lewat WhatsApp</span>
+          <a class="btn btn-fill copy" href="https://wa.me/6283105716295" target="_blank" rel="noopener">Chat WhatsApp</a>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="block" id="tentang">
+    <div class="wrap">
+      <h2>Tentang saya</h2>
+      <div class="prose">
+        <p>Saya lulus dari SMK Bina Informatika Kota Bogor, jurusan Rekayasa Perangkat Lunak, pada Juni 2026. Selama sekolah, saya membuat website menggunakan PHP dan MySQL sebagai bagian dari proyek ujian kompetensi.</p>
+        <p>Di luar kelas, saya memiliki pengalaman sebagai staf administrasi saat PKL dan pernah membantu pencatatan stok sebagai volunteer. Saat ini, saya mencari kesempatan kerja pertama di bidang IT atau administrasi.</p>
+        <div class="facts"><b>SMK Bina Informatika Kota Bogor</b><span>Rekayasa Perangkat Lunak, Juni 2023 sampai Juni 2026</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="proyek">
+    <div class="wrap">
+      <h2>Proyek</h2>
+      <div>
+        <div class="filter" role="group" aria-label="Saring proyek">
+          <button type="button" class="chipbtn" data-filter="semua" aria-pressed="true">Semua</button>
+          <button type="button" class="chipbtn" data-filter="php" aria-pressed="false">PHP</button>
+          <button type="button" class="chipbtn" data-filter="javascript" aria-pressed="false">JavaScript</button>
+        </div>
+        <div class="projects">
+          <article class="project" data-tech="php mysql xampp">
+            <img class="foto" src="struk.png" alt="Tampilan sistem manajemen parkir">
+            <h3>Sistem manajemen parkir</h3>
+            <p class="sub">Proyek UKK jurusan RPL</p>
+            <ul class="tags" aria-label="Teknologi"><li>PHP</li><li>MySQL</li><li>XAMPP</li></ul>
+            <a class="btn btn-line" href="https://github.com/Adit-Arttech/poryek-ukk-Aditya/tree/main" target="_blank" rel="noopener">Lihat kode di GitHub</a>
+          </article>
+
+          <article class="project" data-tech="html css javascript">
+            <img class="foto" src="resto.png" alt="Tampilan website promosi restoran">
+            <h3>Website promosi restoran</h3>
+            <p class="sub">Tugas sekolah membuat website promosi restoran</p>
+            <ul class="tags" aria-label="Teknologi"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+            <a class="btn btn-line" href="https://adit-arttech.github.io/resto/" target="_blank" rel="noopener">Lihat proyek</a>
+          </article>
+
+          <article class="project" data-tech="html css javascript">
+            <img class="foto" src="absen.png" alt="Tampilan sistem absensi karyawan">
+            <h3>Sistem absensi karyawan</h3>
+            <p class="sub">Prototype website sistem absensi karyawan tanpa database</p>
+            <ul class="tags" aria-label="Teknologi"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+            <a class="btn btn-line" href="https://nolandd12.github.io/Absensi-karyawan/" target="_blank" rel="noopener">Lihat proyek</a>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="pengalaman">
+    <div class="wrap">
+      <h2>Pengalaman</h2>
+      <ol class="timeline">
+        <li>
+          <span class="when">Desember 2024</span>
+          <h3>Volunteer</h3>
+          <p class="org">GOAT Tour Bogor by G Pamungkas</p>
+          <p>Mengelola pencatatan stok dan distribusi produk.</p>
+          <p>Memastikan ketersediaan barang dan mengelola proses distribusi.</p>
+          <p>Berdiskusi dengan tim agar acara berjalan sesuai rundown.</p>
+        </li>
+        <li>
+          <span class="when">Agustus sampai Oktober 2024</span>
+          <h3>Staf Administrasi (PKL)</h3>
+          <p class="org">Kelurahan Pamoyanan, Bogor</p>
+          <p>Praktik kerja lapangan di bagian administrasi kelurahan.</p>
+          <p>Mengelola data penduduk menggunakan Microsoft Excel, berhasil mengelola data dengan akurat.</p>
+          <p>Membuat website sistem absensi karyawan, menggunakan bahasa PHP dan MySQL.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="block" id="kontak">
+    <div class="wrap">
+      <h2>Kontak</h2>
+      <div>
+        <p class="contact-note">Untuk lamaran atau wawancara, email dan WhatsApp adalah cara tercepat menghubungi saya.</p>
+        <ul class="contact-list">
+          <li><div><small>Email</small><a class="val" href="mailto:adityaherlambang1212@gmail.com">adityaherlambang1212@gmail.com</a></div><button class="btn btn-line copy" type="button" data-copy="adityaherlambang1212@gmail.com">Salin email</button></li>
+          <li><div><small>WhatsApp</small><a class="val" href="https://wa.me/6283105716295" target="_blank" rel="noopener">083105716295</a></div></li>
+          <li><div><small>LinkedIn</small><a class="val" href="https://linkedin.com/in/aditya-herlambang12" target="_blank" rel="noopener">linkedin.com/in/aditya-herlambang12</a></div></li>
+          <li><div><small>GitHub</small><a class="val" href="https://github.com/Adit-Arttech" target="_blank" rel="noopener">github.com/Adit-Arttech</a></div></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer><div class="wrap">Aditya Herlambang, Kota Bogor, Jawa Barat</div></footer>
+<div id="toast" role="status" aria-live="polite"></div>
+<dialog id="lightbox" aria-label="Pratinjau gambar proyek"><img alt=""><button type="button" class="btn btn-fill">Tutup</button></dialog>
+
+<script src="script.js"></script>
+</body>
+</html>
